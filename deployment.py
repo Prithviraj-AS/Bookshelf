@@ -7,7 +7,6 @@ Created on Sat Jan 29 19:37:40 2022
 
 # -*- coding: utf-8 -*-
 import numpy as np
-import pickle
 import nltk
 import re
 import streamlit as st
@@ -15,8 +14,7 @@ nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
-vec_file=pickle.load(open('vectorizer.pkl','rb'))
-model_file=pickle.load(open('model.pkl','rb'))
+
 
 def predict_sentiment(sample_review):
     sample_review = re.sub(pattern='[^a-zA-Z]',repl=' ', string = sample_review)
