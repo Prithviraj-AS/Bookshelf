@@ -83,13 +83,13 @@ if __name__=='__main__':
 
 ################################# SIDE BAR FOOTER CONTENT ############################################
 st.sidebar.title("**About**")  ######### ABOUT Section
-
+st.sidebar.write("**Extract reviews of a product from e-commerce sites or social media platforms and perform sentiment analysis.**")
 st.sidebar.header("Guided by:- Mr. Varun")
 #st.sidebar.title("")
 st.sidebar.title("Made With Streamlit by")
 st.sidebar.image("streamlitlogo1.png", width=180)    ####  Displaying streamlit logo
 st.sidebar.header("P-88 Group 5:")
-st.sidebar.write("***Priyanka***" ,"," ,"***Prithvi***")
+st.sidebar.write("***Priyanka***" ,"," ,"***Prithviraj***")
 st.sidebar.write("***Gurpinder***" ,"," ,"***Pooja***")
 st.sidebar.write("***Vinay***" ,"," ,"***Shivani***")
 st.sidebar.write("***Anand***")
